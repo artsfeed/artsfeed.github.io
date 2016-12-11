@@ -1,2 +1,2 @@
 # artsfeed.github.io
-main wesbite
+main website
