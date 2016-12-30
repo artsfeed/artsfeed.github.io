@@ -8,6 +8,17 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+
+
+.carousel .carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  max-height: 20em;
+}
+
+
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -22,6 +33,7 @@ body {
   height: 32rem;
   background-color: #777;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -99,6 +111,5 @@ body {
 }
 
 h1,p{
-	text-align: center;
 	font-family: "Comic Sans MS";
 }

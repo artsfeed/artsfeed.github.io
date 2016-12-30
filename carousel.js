@@ -1,4 +1,4 @@
-$('#carousel2').carousel
+$('#carousel').carousel
 ({
     interval: 2000,
 
