@@ -2,27 +2,25 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
+  padding-top: 5%;
 }
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
 
 
 h1, p {
     text-align: center;
+    font-family: "comic sans ms";
 }
 
-#top {
-    
-}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 .carousel .carousel-inner img {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
   max-height: 20em;
 }
-
 
 
 /* Carousel base class */
@@ -116,6 +114,4 @@ h1, p {
   }
 }
 
-h1,p{
-	font-family: "Comic Sans MS";
-}
+
