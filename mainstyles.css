@@ -4,13 +4,13 @@ body {
   color: #5a5a5a;
   padding-top: 5%;
   margin-bottom:50%;
+  text-align: center;
 }
 
-
-h1, p {
-    text-align: center;
-    font-family: "comic sans ms";
+* {
+   font-family: 'Arima Madurai', cursive, sans-serif; 
 }
+
 
 .right{
     float: right;
