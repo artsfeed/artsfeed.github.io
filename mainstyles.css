@@ -37,8 +37,8 @@ body {
 .staffimg {
     height: auto; 
     width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+    //max-width: 300px; 
+    //max-height: 300px;
     border-radius: 50%;
 }
 
