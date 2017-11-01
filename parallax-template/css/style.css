@@ -4,6 +4,16 @@
   width:2em;
   height:2em;
 }
+
+.fit-text{
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+
+/*------------------*/
 nav ul a,
 nav .brand-logo {
   color: #444;
