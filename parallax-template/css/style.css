@@ -1,6 +1,8 @@
 html {
   font-family: Arima Madurai, Calibri, Trebuchet, sans-serif;
 }
+
+
 #logo{
   width:2em;
   height:2em;
@@ -26,6 +28,17 @@ html {
   height: auto;
   width: 100%;
 }
+
+.cropart {
+  height: 20em;
+  /*width: 400px;*/
+  overflow: hidden;
+}
+.cropart img {
+  height: auto;
+  width: 20em;
+}
+
 /*------------------*/
 nav ul a,
 nav .brand-logo {

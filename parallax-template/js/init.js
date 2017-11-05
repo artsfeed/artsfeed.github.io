@@ -20,7 +20,6 @@ function run(){
   { 
       $('.carousel').carousel('next');
   }, time);
-  console.log(int)
 }
 
 function runback(){
