@@ -13,6 +13,19 @@ html {
   *display: inline;
 }
 
+.sectionheader{
+  margin-left:5%;
+}
+
+.crop {
+  height: 25em;
+  /*width: 400px;*/
+  overflow: hidden;
+}
+.crop img {
+  height: auto;
+  width: 100%;
+}
 /*------------------*/
 nav ul a,
 nav .brand-logo {
