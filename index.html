@@ -1,201 +1,217 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-	<link rel="stylesheet"  type="text/css" href="css/styles.css"></link>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ArtsFeed Magazine</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	<title>ArtsFeed Magazine</title>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-
-<body>
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-default navbar-fixed-top navbar-light bg-faded">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="images/flower.png"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html#top">ArtsFeed<span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              About Us<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="about.html">Mission</a></li>
-            <li><a href="staff.html">Staff</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Articles<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="articles.html">Articles Home</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="articles.html#">The Political Strength of Art</a></li>
-            <li><a href="articles.html#">The Practical Arts</a></li>
-            <li><a href="articles.html#">Exploring NYC</a></li>
-            <li><a href="articles.html#">The Orchestrators of Modern Music</a></li>
-            <li><a href="articles.html#">Artists of the World</a></li>
-          </ul>
-        </li>
-        <li><a href="photos.html">Art & Photography </a></li>
-        <li>
-          <a href="index.html#radio" data-toggle = "modal" data-target="#radio">Radio</a>
-        </li>
-      </ul>
-      <!--
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      -->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </li>
-      </ul>
+<body class = "indigo darken-3 pink-text text-lighten-5">
+<!-- NAVBAR ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ NAVBAR -->
+ <div class = "navbar-fixed">
+  <nav class="pink lighten-4" role="navigation">
+    <div class="nav-wrapper container">
         
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      <a id="logo-container" href="index.html" class="brand-logo center"><img id = "logo" src="images/flower.png"></a>
+      <ul class="left hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="articles/main.html">Articles</a></li>
+          <li><a href="artworks.html">Art & Photography</a></li>
+          <li><a href="music.html">Music</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
 
-<div id = "top" class = "jumbotron">
-    <h1>ArtsFeed<br><small style = "color:green;">The Arts Magazine of Bronx Science</small></h1>
-</div>
-
-
-
-
-<h1>Newest Articles:</h1>
-<p> Here's a taste of our work</p>
-<!-- CAROUSEL -->
-<div id="carousel" class="carousel slide" data-ride="carousel" data-pause = "hover">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel" data-slide-to="1"></li>
-    <li data-target="#carousel" data-slide-to="2"></li>
-    <li data-target="#carousel" data-slide-to="3"></li>
-    <li data-target="#carousel" data-slide-to="4"></li>
-  </ol>
-    
-  <div class="carousel-inner" role="listbox">
-    
-    <div class="item active">
-       <img src = "images/articles/blackartmatter.jpg" alt = "history of black people"></img>
-        <div class="carousel-caption">
-            <h3><mark>Black Lives Matter... </mark></h3>
-            <h2><mark>Does Black Art Matter?</mark></h2>
-            <mark>David Shin</mark>
-        </div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-    
-    <div class="item">
-        <img src = "images/articles/joinordie.jpg" alt = "classic political cartoon"></img>
-        <div class="carousel-caption">
-          <h3><mark>A Brief Overview of the  Political Cartoon</mark></h3>
-          <mark>Shafqat Shadaab</mark>
-        </div>
-    </div>
-    
-    <div class="item">
-      <img src = "images/articles/guernica.jpg" alt = "guernica by picasso"></img>
-        <div class="carousel-caption">
-          <h3><mark>Secrets of Guernica</mark></h3>
-          <mark>Evan Strauss</mark>
-        </div>
-    </div>
+  </nav>
+ </div>
+<!-- NAVBAR ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ NAVBAR -->
 
-    <div class="item">
-      <img src = "images/articles/balancescales.jpg" alt = "Woman Holding a Balance"></img>
-        <div class="carousel-caption">
-          <h3><mark>Tipping the Scales</mark></h3>
-          <mark>Eric Baker</mark>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center pink lighten-4 blue-grey-text text-darken-4 hoverable">ArtsFeed</h1>
+        <div class="row center">
+          <h4 class="header col s12 light hoverable">The Arts Magazine of Bronx Science</h4>
         </div>
-    </div>
+        <br><br>
 
-    <div class="item">
-      <img src = "images/articles/skeletoncrew.jpg" alt = "skeleton crew"></img>
-        <div class="carousel-caption">
-          <h4><mark>It Only Takes a Skeleton Crew to Make This Show Great</mark></h4>
-          <mark>Audrey Lang</mark>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/jqu-home.jpg" alt="Untitled Painting by Jason Qu"></div>
+  </div>
+
+
+  <div class="container">
+    
+      <div class="section">
+        <div class = "row">
+          <div class = "col s8 offset-s3 center">
+              <h4> The Latest Works From Our Students</h4>
+          </div>
         </div>
+        <div class="row valign-wrapper">
+            <div class = "col s2">
+                <h5> We meet on Thursdays 3:05pm in Room 321 at </h5>
+                <h5><a href = "http://bxscience.edu/">The Bronx High School of Science</a>.</h5>
+                <h5> Come discuss art with us!</h5>
+            </div>
+
+            <div class="col s1">
+               <button class="btn-floating btn-flat btn-large waves-effect waves-circle waves-red carousel-goleft hoverable"><i class="material-icons pink-text pink-lighten-4">keyboard_arrow_left</i></button>
+             </div>
+
+            <div class="col s8">
+              <div class="carousel carousel-slider center" data-indicators="true">
+                  <div style="background: url(images/articles/blackartmatter.jpg) no-repeat; background-size:cover;" class="carousel-item white-text" href="#one!">
+                      <br><br><br><br><br><br><br><br><br>
+                      <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">Black Lives Matter... Does Black Art Matter?</h2>
+                      <br>
+                      <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Article by David Shin</p>
+                  </div> 
+                  <div style="background: url(images/art/jnicastro-pointofview.jpg) no-repeat; background-size:cover;" class="carousel-item white-text" href="#one!">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">Point of View</h2>
+                    <br>
+                    <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Artwork by Jonathan Nicastro</p>
+                </div>
+                  <div style="background: url(images/articles/joinordie.jpg) no-repeat; background-size:cover;" class="carousel-item blue white-text" href="#four!">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">A Brief Overview of the Political Cartoon</h2>
+                    <br>
+                    <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Article by Shafqat Shadaab</p>
+                  </div>
+                  <div style="background: url(images/articles/guernica.jpg) no-repeat; background-size:cover;" class="carousel-item amber white-text" href="#two!">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">Secrets of Guernica</h2>
+                    <br>
+                    <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Article by Evan Strauss</p>
+                  </div>
+                  <div style="background: url(images/articles/balancescales.jpg) no-repeat; background-size:cover;" class="carousel-item green white-text" href="#three!">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">Tipping the Scales</h2>
+                    <br>
+                    <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Article by Eric Baker</p>
+                  </div>
+                  <div style="background: url(images/articles/skeletoncrew.jpg) no-repeat; background-size:cover;" class="carousel-item blue white-text" href="#four!">
+                    <br><br><br><br><br><br><br><br><br>
+                    <h2 class = "fit-text pink lighten-4 blue-grey-text text-darken-4">It Only Takes A Skeleton Crew To Make This Show Great</h2>
+                    <br>
+                    <p  class=  "fit-text pink lighten-4 blue-grey-text text-darken-4">Article by Audrey Lang</p>
+                  </div>
+              </div>
+            </div>
+            
+          <div class="col s1">
+              <button class="btn-floating btn-flat btn-large waves-effect waves-circle waves-red carousel-goright hoverable"><i class="material-icons pink-text pink-lighten-4">keyboard_arrow_right</i></button>
+          </div>
+
+      </div>
+
     </div>
 
   </div>
 
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
- </div>
 
 
-
-<div>
-    <h1> We meet on Thursdays 3:05pm in Room 321 at </h1>
-    <h1> The Bronx High School of Science</h1>
-    <h2> Come discuss art with us!</h2>
-
-</div>
-
-<div class="modal fade" id="radio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Classy Radio</h4>
-        </div>
-        <div class="modal-body">
-          <iframe frameborder='0' src="http://www.wnyc.org/widgets/embeddable_player/?stream=wqxr" width='300px' height='507px'></iframe>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">We discuss renowned pieces such as Vincent Van Gogh's 'Starry Night'</h5>
         </div>
       </div>
     </div>
+    <div class="parallax"><img src="images/starrynight.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-      <!-- FOOTER -->
-      <footer class = "footer">
-        <div class = "container">
-        <p class="float-xs-right"><a href="#top">Back to top</a> &middot; &copy; <a href="#">Boubacar Diallo </a> &middot;</p>
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4><i class="material-icons">record_voice_over</i> Mission <i class="material-icons">record_voice_over</i></h4>
+          <p>
+              ArtsFeed is the official print and online arts publication of the Bronx High School of Science. 
+              As a publication, it provides a platform for students to discuss, write, and depict art in an independent medium. 
+              The content encompasses a broad range of arts involving drama, dance, music, pop culture, and more. Contributors are 
+              encouraged to convey their unfiltered thoughts in whatever form they desire. This medium serves as a place where we 
+              see the art in the world, from politics to music.
+          </p>
+          <p>
+              We believe everyone wants a voice. Throughout history, our voices have been shunned. But there have always been 
+              those who spoke up for those who could not express-the voices of the voiceless. Those voices, although spanning 
+              many generations and covering many diverse topics, had one thing in common: art. Whether it be a Renaissance 
+              painting, a Debussy’s tonal poem, or a modern rap track, people have always used art to express themselves. Our 
+              attempts at being heard illuminate artistic characteristics and tendencies of our community. 
+          </p>
         </div>
-      </footer>
-    
+      </div>
+
+    </div>
+  </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src = "https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src ="js/carousel.js"></script>
-    <script src = "js/script.js" type="text/javascript"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug-->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light">We also share and discuss student submitted art, such as <a href = "">this painting </a> by recent alumni Jason Qu</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/jqu-picnic.jpg" alt="Untitled Painting by Jason Qu"></div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-</body>
+  <footer class="page-footer indigo darken-3 pink-text text-lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">ArtsFeed Magazine</h5>
+          <p class="grey-text text-lighten-4"></p>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+          Made by David and <a class = "brown-text text-lighten-3" href="https://dialbouba.github.io">Boubacar</a> with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
