@@ -2,10 +2,31 @@ html {
   font-family: Arima Madurai, Calibri, Trebuchet, sans-serif;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 
 #logo{
   width:2em;
   height:2em;
+}
+
+.card-image img{
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.card.horizontal .card-image img {
+  width: 100%;
+  overflow: hidden;
 }
 
 .fit-text{
